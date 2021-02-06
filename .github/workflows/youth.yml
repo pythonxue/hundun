@@ -21,7 +21,7 @@ jobs:
         run: pip install -r ./requirements.txt 
         
       - name: 'run 中青' 
-        run: python3 youth.py 
+        run: python3 quanx/hundun/youth.py 
         env:
             BARK: ${{ secrets.BARK }}     # bark服务
             SCKEY: ${{ secrets.SCKEY }}   # server酱服务
